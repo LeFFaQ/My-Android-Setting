@@ -98,4 +98,14 @@
       <option name="objc" value="false" />
     </context>
   </template>
+  <template name="ghtoken" value="//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" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="copyright" value="/*&#10; *  ___       _______   ________ ________ ________  ________&#10; * |\  \     |\  ___ \ |\  _____\\  _____\\   __  \|\   __  \&#10; * \ \  \    \ \   __/|\ \  \__/\ \  \__/\ \  \|\  \ \  \|\  \&#10; *  \ \  \    \ \  \_|/_\ \   __\\ \   __\\ \   __  \ \  \\\  \&#10; *   \ \  \____\ \  \_|\ \ \  \_| \ \  \_| \ \  \ \  \ \  \\\  \&#10; *    \ \_______\ \_______\ \__\   \ \__\   \ \__\ \__\ \_____  \&#10; *     \|_______|\|_______|\|__|    \|__|    \|__|\|__|\|___| \__\&#10; *&#10; * Created by LeFFaQ on date, time&#10; * Copyright (c) year . All rights reserved.&#10; */" description="copyright" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
