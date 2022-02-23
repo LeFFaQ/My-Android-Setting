@@ -1,0 +1,234 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Android Studio default JDK" />
+      <type value="JavaSDK" />
+      <version value="version 11.0.10" />
+      <homePath value="$APPLICATION_HOME_DIR$/jre" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.base" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.compiler" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.datatransfer" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.desktop" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.instrument" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.logging" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.management" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.management.rmi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.naming" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.net.http" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.prefs" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.rmi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.scripting" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.se" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.security.sasl" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.smartcardio" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.sql" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.sql.rowset" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.transaction.xa" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.xml" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.xml.crypto" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.accessibility" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.aot" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.attach" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.charsets" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.compiler" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.crypto.ec" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.dynalink" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.httpserver" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.ed" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.le" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.opt" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jartool" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.javadoc" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jdeps" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jdi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jfr" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jlink" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jsobject" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.localedata" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.management" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.management.agent" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.management.jfr" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.naming.dns" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.naming.rmi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.net" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.pack" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.scripting.nashorn" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.sctp" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.security.auth" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.unsupported" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.xml.dom" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 32 Platform" />
+      <type value="Android SDK" />
+      <version value="version 11.0.10" />
+      <homePath value="D:/Android" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://D:/Android/platforms/android-32/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://D:/Android/platforms/android-32/android.jar!/" type="simple" />
+            <root url="file://D:/Android/platforms/android-32/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="Android Studio default JDK" sdk="android-32" />
+    </jdk>
+    <jdk version="2">
+      <name value="11" />
+      <type value="JavaSDK" />
+      <version value="version 11.0.10" />
+      <homePath value="$APPLICATION_HOME_DIR$/jre" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.base" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.compiler" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.datatransfer" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.desktop" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.instrument" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.logging" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.management" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.management.rmi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.naming" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.net.http" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.prefs" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.rmi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.scripting" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.se" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.security.sasl" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.smartcardio" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.sql" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.sql.rowset" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.transaction.xa" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.xml" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/java.xml.crypto" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.accessibility" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.aot" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.attach" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.charsets" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.compiler" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.crypto.ec" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.dynalink" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.httpserver" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.ed" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.le" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.opt" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jartool" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.javadoc" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jdeps" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jdi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jfr" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jlink" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.jsobject" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.localedata" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.management" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.management.agent" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.management.jfr" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.naming.dns" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.naming.rmi" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.net" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.pack" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.scripting.nashorn" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.sctp" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.security.auth" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.unsupported" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.xml.dom" type="simple" />
+            <root url="jrt://C:/Users/LeFFaQ/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7935034/jre!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 30 Platform" />
+      <type value="Android SDK" />
+      <version value="version 11.0.10" />
+      <homePath value="D:/Android" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://D:/Android/platforms/android-30/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://D:/Android/platforms/android-30/android.jar!/" type="simple" />
+            <root url="file://D:/Android/platforms/android-30/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="Android Studio default JDK" sdk="android-30" />
+    </jdk>
+  </component>
+</application>

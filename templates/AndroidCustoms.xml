@@ -1,0 +1,101 @@
+<templateSet group="AndroidCustoms">
+  <template name="hexalpha" value="// HEX Alpha channel values&#10;// 100% — FF&#10;// 99% — FC 89% — E3 79% — C9 69% — B0 59% — 96 49% — 7D 39% — 63 29% — 4A 19% — 30 9% — 17&#10;// 98% — FA 88% — E0 78% — C7 68% — AD 58% — 94 48% — 7A 38% — 61 28% — 47 18% — 2E 8% — 14&#10;// 97% — F7 87% — DE 77% — C4 67% — AB 57% — 91 47% — 78 37% — 5E 27% — 45 17% — 2B 7% — 12&#10;// 96% — F5 86% — DB 76% — C2 66% — A8 56% — 8F 46% — 75 36% — 5C 26% — 42 16% — 29 6% — 0F&#10;// 95% — F2 85% — D9 75% — BF 65% — A6 55% — 8C 45% — 73 35% — 59 25% — 40 15% — 26 5% — 0D&#10;// 94% — F0 84% — D6 74% — BD 64% — A3 54% — 8A 44% — 70 34% — 57 24% — 3D 14% — 24 4% — 0A&#10;// 93% — ED 83% — D4 73% — BA 63% — A1 53% — 87 43% — 6E 33% — 54 23% — 3B 13% — 21 3% — 08&#10;// 92% — EB 82% — D1 72% — B8 62% — 9E 52% — 85 42% — 6B 32% — 52 22% — 38 12% — 1F 2% — 05&#10;// 91% — E8 81% — CF 71% — B5 61% — 9C 51% — 82 41% — 69 31% — 4F 21% — 36 11% — 1C 1% — 03&#10;// 90% — E6 80% — CC 70% — B3 60% — 99 50% — 80 40% — 66 30% — 4D 20% — 33 10% — 1A &#10;// 0% — 00" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="kdoc" value="/**&#10; * A simple comment&#10; *&#10; * This commentary is a demonstration of.&#10; *&#10; * @param[name] description.&#10; * @return[name] description.&#10; * @author LeFFaQ&#10; * @see [classname]&#10; *&#10; */" description="Creates a simple comment for Dokka" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="dokkainit" value="//&#10;//in project gradle&#10;//classpath &quot;org.jetbrains.dokka:dokka-gradle-plugin:0.10.1&quot;&#10;//&#10;//module gradle&#10;//id 'org.jetbrains.dokka'&#10;//&#10;&#10;&#10;dokka {&#10;    outputFormat = 'html' // use 'javadoc' to get standard java docs&#10;    outputDirectory = &quot;$buildDir/javadoc&quot;&#10;&#10;    configuration {&#10;        includeNonPublic = false&#10;        skipEmptyPackages = true&#10;        skipDeprecated = true&#10;        reportUndocumented = true&#10;        jdkVersion = 8&#10;&#10;        perPackageOption {&#10;            prefix = &quot;com.lffq.wsrf&quot;&#10;            suppress = true&#10;        }&#10;    }&#10;}" description="Settings for Gradle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="false" />
+      <option name="FLUTTER" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+    </context>
+  </template>
+  <template name="koinapp" value="class App : Application() {&#10;&#10;    override fun onCreate() {&#10;        super.onCreate()&#10;&#10;        startKoin {&#10;            androidContext(this@App)&#10;            androidLogger(if (BuildConfig.DEBUG) Level.ERROR else Level.NONE)&#10;            modules(listOf(appModule, dataModule, roomModule))&#10;        }&#10;    }&#10;}" description="Creates a class that inherits the Application" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="koinmodules" value="val roomModule = module {&#10;&#10;    single { RoomInstance.provideDataBase(androidApplication()) }&#10;    single { RoomInstance.provideDAO(get()) }&#10;&#10;}&#10;val dataModule = module {&#10;&#10;    single&lt;Retrofit&gt; { RetrofitInstance.retrofit }&#10;    single&lt;ExampleApi&gt; { get&lt;Retrofit&gt;().create(ExampleApi::class.java) }&#10;    single&lt;ExampleRepository&gt; { ExampleRepositoryImpl(api = get()) }&#10;&#10;}&#10;val appModule = module {&#10;&#10;    viewModel {&#10;        FirstViewModel(repository = get())&#10;    }&#10;&#10;    viewModel {&#10;        SecondViewModel(foodDAO = get(), repository = get())&#10;    }&#10;&#10;    viewModel {&#10;        MainViewModel(foodDAO = get(), repository = get())&#10;    }&#10;&#10;}" description="Create 3 different koin modules" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="retroimage" value="@Multipart&#10;@POST(&quot;pictures&quot;)&#10;suspend fun uploadPicture(&#10;        @Part part: MultipartBody.Part&#10;): NetworkPicture&#10;&#10;suspend fun upload(inputStream: InputStream) {&#10;   val part = MultipartBody.Part.createFormData(&#10;         &quot;pic&quot;, &quot;myPic&quot;, RequestBody.create(&#10;              MediaType.parse(&quot;image/*&quot;),&#10;              inputStream.readBytes()&#10;          )&#10;   )&#10;   uploadPicture(part)&#10;}&#10;&#10;// In your service&#10; @PUT&#10; suspend fun s3Upload(&#10;     @Header(&quot;Content-Type&quot;) mime: String,&#10;     @Url uploadUrl: String, &#10;     @Body body: RequestBody &#10; )&#10;// In your repository&#10;val body = RequestBody.create(MediaType.parse(&quot;application/octet&quot;), inputStream.readBytes())&#10;networkService.s3Upload(mime, url, body)&#10;&#10;//Image picker&#10;private val pickImagesLauncher =&#10;           registerForActivityResult(ActivityResultContracts.GetContent()) { uri -&gt;&#10;                uri?.let {&#10;                    val stream = contentResolver.openInputStream(it)&#10;                    itemViewModel.uploadPicture(stream)&#10;                }&#10;            }&#10;&#10;override fun onCreate(savedInstanceState: Bundle?) {&#10;      super.onCreate(savedInstanceState)&#10;&#10;      btn.setOnClickListener {&#10;         pickImagesLauncher.launch(&quot;image/*&quot;)&#10;     }&#10; }" description="Creates differents functional for send images/files to server" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="retroface" value="interface FoodApi {&#10;@GET(&quot;example endpost&quot;)&#10;    suspend fun getExample(&#10;//        @Header(&quot;header&quot;) header: String,&#10;//        @Path(&quot;path param (in endpoint that /{param}/ )&quot;) path: String,&#10;//        @Query(&quot;query param&quot;) query: String,&#10;    ): Response&lt;ExampleModel&gt;&#10;&#10;@POST(&quot;example endpost&quot;)&#10;    suspend fun postExample(&#10;//        @Body post: PostedModel&#10;    ): Response&lt;ExampleModel&gt;&#10;}" description="Creates interface with POST and GET request" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="retrokoin" value="val retrofitModule = module {&#10;&#10;    single{&#10;        HttpLoggingInterceptor().apply { this.level = HttpLoggingInterceptor.Level.BODY }&#10;    }&#10;&#10;    single {&#10;        OkHttpClient.Builder()&#10;            .addInterceptor(get&lt;HttpLoggingInterceptor&gt;())&#10;            .build()&#10;    }&#10;&#10;    single&lt;Retrofit&gt; {&#10;        Retrofit.Builder()&#10;            .client(get())&#10;            .addConverterFactory(GsonConverterFactory.create())&#10;            .baseUrl(&quot;URL&quot;)&#10;            .build()&#10;    }&#10;&#10;    single&lt;ExampleApi&gt; { get&lt;Retrofit&gt;().create(ExampleApi::class.java) }&#10;&#10;    single&lt;ExampleRepository&gt; { ExampleRepositoryImpl(api = get()) }&#10;}" description="Koin module for retrofit (Advanced)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="retrorepo" value="interface ExampleRepository {&#10;&#10;    suspend fun exampleFun(): Response&lt;Example&gt;&#10;}" description="Example repository for retrofit" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="retrorepoimpl" value="class ExampleRepositoryImpl(val api: ExampleApi) : ExampleRepository {&#10;&#10;//    override suspend fun... {&#10;//      return api.*() }&#10;&#10;}" description="implementation for retrorepo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="vmcust" value="//initialize it in koin module&#10;//in composable:&#10;//val vm = getViewModel&lt;MainViewModel&gt;()&#10;&#10;//access to livedata's&#10;//val example: String by vm.exampleVar.observeAsState(&quot;&quot;)&#10;&#10;&#10;class MainViewModel(&#10;    private val anyDAO: AnyDAO,&#10;    private val repository: ExampleRepository&#10;) : ViewModel() {&#10;&#10;    private val _examleVar = MutableLiveData&lt;Any&gt;()&#10;    val exampleVar: LiveData&lt;Any&gt; = _examleVar&#10;&#10;&#10;    fun getExamples() {&#10;        viewModelScope.launch {&#10;            //async functions like api requests&#10;        }&#10;    }&#10;}" description="A Custom Viewmodel (Koin)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="nav_setupnav" value="fun SetupNavGraph(&#10;    navHostController: NavHostController&#10;) {&#10;    //optional UI&#10;    //val systemUiController = rememberSystemUiController()&#10;    //val useDarkIcons = MaterialTheme.colors.isLight&#10;&#10;    NavHost(&#10;        navController = navHostController,&#10;        startDestination = Screen.Test.route&#10;    ) {&#10;        composable(route = Screen.Test.route) {&#10;            TestScreen()&#10;        }&#10;    }" description="Basic NavHost" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="nav_sealedscr" value="sealed class Screen(val route: String) {&#10;   object Test : Screen(route = &quot;test&quot;)&#10;}" description="Creates sealed class &quot;Screen&quot; with screens routes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="sussy" value="//⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⠋⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⠈⢻⣿⣿⡄⠀⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⣸⣿⡏⠀⠀⠀⣠⣶⣾⣿⣿⣿⠿⠿⠿⢿⣿⣿⣿⣄⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⣿⣿⠁⠀⠀⢰⣿⣿⣯⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⡄⠀&#10;// ⠀⣀⣤⣴⣶⣶⣿⡟⠀⠀⠀⢸⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⠀&#10;//⠀⢰⣿⡟⠋⠉⣹⣿⡇⠀⠀⠀⠘⣿⣿⣿⣿⣷⣦⣤⣤⣤⣶⣶⣶⣶⣿⣿⣿⠀&#10;//⠀⢸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀&#10;//⠀⣸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠉⠻⠿⣿⣿⣿⣿⡿⠿⠿⠛⢻⣿⡇⠀⠀&#10;//⠀⣿⣿⠁⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣧⠀⠀&#10;//⠀⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀&#10;//⠀⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀&#10;//⠀⢿⣿⡆⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀&#10;//⠀⠸⣿⣧⡀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠃⠀⠀&#10;//⠀⠀⠛⢿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⣰⣿⣿⣷⣶⣶⣶⣶⠶⣿⣿⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⣽⣿⡏⠁⠀⠀⢸⣿⡇⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⢹⣿⡆⠀⠀⠀⣸⣿⠇⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⢿⣿⣦⣄⣀⣠⣴⣿⣿⠁⠀⠈⠻⣿⣿⣿⣿⡿⠏⠀⠀⠀⠀&#10;//⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⠿⠿⠿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" description="no way" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="alldepcs" value="//Default&#10;    implementation 'androidx.core:core-ktx:1.7.0'&#10;    implementation 'androidx.appcompat:appcompat:1.4.1'&#10;    implementation 'androidx.activity:activity-compose:1.4.0'&#10;&#10;    //Tests&#10;    testImplementation 'junit:junit:4.13.2'&#10;    androidTestImplementation 'androidx.test.ext:junit:1.1.3'&#10;    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'&#10;&#10;    def compose_testing = &quot;1.0.0-alpha07&quot;&#10;    androidTestImplementation &quot;androidx.compose.ui:ui-test-junit4:$compose_testing&quot;&#10;    def compose_testing_ = &quot;1.1.0&quot;&#10;    debugImplementation &quot;androidx.compose.ui:ui-test-manifest:$compose_testing_&quot;&#10;&#10;&#10;    //Lifecycle&#10;    def lifecycle_version = &quot;2.5.0-alpha02&quot;&#10;    implementation &quot;androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version&quot;&#10;    implementation &quot;androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version&quot;&#10;    implementation &quot;androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version&quot;&#10;    implementation &quot;androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version&quot;&#10;&#10;    //Material design&#10;    def material_version = &quot;1.5.0&quot;&#10;    implementation &quot;com.google.android.material:material:$material_version&quot;&#10;&#10;    //JP Compose (UI)&#10;    def compose_version = '1.2.0-alpha03'&#10;    implementation &quot;androidx.compose.ui:ui:$compose_version&quot;&#10;    implementation &quot;androidx.compose.material:material:$compose_version&quot;&#10;    implementation &quot;androidx.compose.runtime:runtime-livedata:$compose_version&quot;&#10;    implementation &quot;androidx.compose.ui:ui-tooling-preview:$compose_version&quot;&#10;    androidTestImplementation &quot;androidx.compose.ui:ui-test-junit4:$compose_version&quot;&#10;    debugImplementation &quot;androidx.compose.ui:ui-tooling:$compose_version&quot;&#10;    implementation &quot;androidx.constraintlayout:constraintlayout-compose:1.0.0&quot;&#10;&#10;&#10;    def nav_version = &quot;2.4.1&quot;&#10;    implementation &quot;androidx.navigation:navigation-compose:$nav_version&quot;&#10;&#10;&#10;    //Compose additional&#10;    def accompanist_version = &quot;0.24.1-alpha&quot;&#10;    implementation &quot;com.google.accompanist:accompanist-systemuicontroller:$accompanist_version&quot;&#10;    implementation &quot;com.google.accompanist:accompanist-pager:$accompanist_version&quot;&#10;    implementation &quot;com.google.accompanist:accompanist-pager-indicators:$accompanist_version&quot;&#10;    implementation &quot;com.google.accompanist:accompanist-placeholder-material:$accompanist_version&quot;&#10;&#10;    //Coil (image loading)&#10;    def coil_version = &quot;1.4.0&quot;&#10;    implementation &quot;io.coil-kt:coil:$coil_version&quot;&#10;    implementation &quot;io.coil-kt:coil-compose:$coil_version&quot;&#10;&#10;    //Networking&#10;    def retrofit_version = &quot;2.9.0&quot;&#10;    def okhttp = &quot;4.7.2&quot;&#10;    implementation &quot;com.squareup.retrofit2:retrofit:$retrofit_version&quot;&#10;    implementation &quot;com.squareup.retrofit2:converter-gson:$retrofit_version&quot;&#10;    implementation &quot;com.squareup.okhttp3:logging-interceptor:$okhttp&quot;&#10;&#10;    //Dependency Injection&#10;    def koin_version = &quot;3.1.5&quot;&#10;    implementation &quot;io.insert-koin:koin-android:$koin_version&quot;&#10;    implementation &quot;io.insert-koin:koin-androidx-compose:$koin_version&quot;&#10;&#10;    //Coroutines&#10;    def coroutines_version = &quot;1.5.2&quot;&#10;    implementation &quot;org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version&quot;&#10;    implementation &quot;org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version&quot;&#10;&#10;    def room_version = &quot;2.4.1&quot;&#10;    implementation &quot;androidx.room:room-runtime:$room_version&quot;&#10;    implementation &quot;androidx.room:room-ktx:$room_version&quot;&#10;    testImplementation &quot;androidx.room:room-testing:$room_version&quot;&#10;    kapt &quot;androidx.room:room-compiler:$room_version&quot;" description="All of my uses dependencies" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="false" />
+      <option name="FLUTTER" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+    </context>
+  </template>
+</templateSet>
